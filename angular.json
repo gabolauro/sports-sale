@@ -5,10 +5,18 @@
   "projects": {
     "SportsSale": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "skipTests": true,
+          "changeDetection": "OnPush"
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "ss",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
@@ -24,9 +32,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "styles": ["src/styles.css"],
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -96,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3d17c64f-e907-46ab-ba73-988118c9a961"
   }
 }
