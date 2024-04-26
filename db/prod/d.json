@@ -1,273 +1,273 @@
 {
-  "carrito": [],
-  "compras": [],
-  "deportes": [
-    {
-      "id": 1,
-      "nombre": "Escalada",
-      "descripcion": "Equipamiento y accesorios para la práctica de la escalada en roca, hielo o en rocódromos"
-    },
-    {
-      "id": 2,
-      "nombre": "Senderismo",
-      "descripcion": "Equipamiento y accesorios para la práctica del senderismo y el excursionismo en montaña"
-    },
-    {
-      "id": 3,
-      "nombre": "Deportes Acuáticos",
-      "descripcion": "Equipamiento y accesorios para la práctica de deportes acuáticos como el kayak, el rafting o el paddle surf"
-    },
-    {
-      "id": 4,
-      "nombre": "Esquí y Snowboard",
-      "descripcion": "Equipamiento y accesorios para la práctica del esquí y el snowboard en pistas o fuera de pistas"
-    },
-    {
-      "id": 5,
-      "nombre": "Camping y Supervivencia",
-      "descripcion": "Equipamiento y accesorios para acampar y sobrevivir en la naturaleza"
-    }
-  ],
-  "productos": [
-    {
-      "id": 1,
-      "nombre": "Arnes de Escalada",
-      "descripcion": "Arnes de escalada con certificación UIAA, cómodo y resistente",
-      "categoria_id": 1,
-      "precio": 59.99,
-      "stock": 5
-    },
-    {
-      "id": 2,
-      "nombre": "Cuerda Dinámica",
-      "descripcion": "Cuerda dinámica de 70 metros y 10.2 mm de diámetro para escalada",
-      "categoria_id": 1,
-      "precio": 129.99,
-      "stock": 0
-    },
-    {
-      "id": 3,
-      "nombre": "Mosquetones de Seguridad",
-      "descripcion": "Pack de 6 mosquetones de seguridad con certificación UIAA",
-      "categoria_id": 1,
-      "precio": 39.99,
-      "stock": 2
-    },
-    {
-      "id": 4,
-      "nombre": "Botas de Senderismo",
-      "descripcion": "Botas de senderismo impermeables y transpirables para terrenos difíciles",
-      "categoria_id": 2,
-      "precio": 139.99,
-      "stock": 2
-    },
-    {
-      "id": 5,
-      "nombre": "Mochila de Senderismo",
-      "descripcion": "Mochila de senderismo de 40 litros con sistema de ventilación y ajuste",
-      "categoria_id": 2,
-      "precio": 89.99,
-      "stock": 8
-    },
-    {
-      "id": 6,
-      "nombre": "Bastones de Trekking",
-      "descripcion": "Bastones de trekking ajustables en altura y con sistema antishock",
-      "categoria_id": 2,
-      "precio": 49.99,
-      "stock": 1
-    },
-    {
-      "id": 7,
-      "nombre": "Kayak Hinchable",
-      "descripcion": "Kayak hinchable de 2 plazas con remos y bomba de aire",
-      "categoria_id": 3,
-      "precio": 299.99,
-      "stock": 5
-    },
-    {
-      "id": 8,
-      "nombre": "Chaleco Salvavidas",
-      "descripcion": "Chaleco salvavidas con certificación ISO 12402-5 para deportes acuáticos",
-      "categoria_id": 3,
-      "precio": 59.99,
-      "stock": 0
-    },
-    {
-      "id": 9,
-      "nombre": "Tabla de Paddle Surf",
-      "descripcion": "Tabla de paddle surf hinchable con remo ajustable y mochila de transporte",
-      "categoria_id": 3,
-      "precio": 399.99,
-      "stock": 3
-    },
-    {
-      "id": 10,
-      "nombre": "Esquís de Montaña",
-      "descripcion": "Esquís de montaña con fijaciones y pieles de foca para ascensos",
-      "categoria_id": 4,
-      "precio": 599.99,
-      "stock": 4
-    },
-    {
-      "id": 11,
-      "nombre": "Casco de Esquí",
-      "descripcion": "Casco de esquí con certificación EN 1077 y sistema de ventilación",
-      "categoria_id": 4,
-      "precio": 79.99,
-      "stock": 1
-    },
-    {
-      "id": 12,
-      "nombre": "Gafas de Sol",
-      "descripcion": "Gafas de sol con lentes intercambiables y protección UV 400",
-      "categoria_id": 4,
-      "precio": 49.99,
-      "stock": 2
-    },
-    {
-      "id": 13,
-      "nombre": "Tienda de Campaña",
-      "descripcion": "Tienda de campaña de 2 plazas con sistema de ventilación y impermeabilidad",
-      "categoria_id": 5,
-      "precio": 149.99,
-      "stock": 10
-    },
-    {
-      "id": 14,
-      "nombre": "Saco de Dormir",
-      "descripcion": "Saco de dormir con relleno sintético y temperatura de confort de 0ºC",
-      "categoria_id": 5,
-      "precio": 99.99,
-      "stock": 1
-    },
-    {
-      "id": 15,
-      "nombre": "Hornillo de Gas",
-      "descripcion": "Hornillo de gas con encendido piezoeléctrico y regulador de llama",
-      "categoria_id": 5,
-      "precio": 29.99,
-      "stock": 2
-    },
-    {
-      "id": 16,
-      "nombre": "Crampones para Hielo",
-      "descripcion": "Crampones para hielo con certificación UIAA y ajuste universal",
-      "categoria_id": 1,
-      "precio": 119.99,
-      "stock": 0
-    },
-    {
-      "id": 17,
-      "nombre": "Piolet de Alpinismo",
-      "descripcion": "Piolet de alpinismo con certificación UIAA y mango ergonómico",
-      "categoria_id": 1,
-      "precio": 79.99,
-      "stock": 2
-    },
-    {
-      "id": 18,
-      "nombre": "GPS de Mano",
-      "descripcion": "GPS de mano con pantalla táctil y mapas topográficos precargados",
-      "categoria_id": 2,
-      "precio": 249.99,
-      "stock": 1
-    },
-    {
-      "id": 19,
-      "nombre": "Linterna Frontal",
-      "descripcion": "Linterna frontal con luz LED y batería recargable",
-      "categoria_id": 2,
-      "precio": 29.99,
-      "stock": 0
-    },
-    {
-      "id": 20,
-      "nombre": "Chaqueta Impermeable",
-      "descripcion": "Chaqueta impermeable y transpirable con capucha ajustable",
-      "categoria_id": 2,
-      "precio": 99.99,
-      "stock": 3
-    },
-    {
-      "id": 21,
-      "nombre": "Traje de Neopreno",
-      "descripcion": "Traje de neopreno de 5 mm de grosor para deportes acuáticos",
-      "categoria_id": 3,
-      "precio": 199.99,
-      "stock": 2
-    },
-    {
-      "id": 22,
-      "nombre": "Remo para Kayak",
-      "descripcion": "Remo para kayak de fibra de vidrio y hoja asimétrica",
-      "categoria_id": 3,
-      "precio": 69.99,
-      "stock": 0
-    },
-    {
-      "id": 23,
-      "nombre": "Casco de Kayak",
-      "descripcion": "Casco de kayak con certificación EN 1385 y sistema de ventilación",
-      "categoria_id": 3,
-      "precio": 49.99,
-      "stock": 1
-    },
-    {
-      "id": 24,
-      "nombre": "Tabla de Snowboard",
-      "descripcion": "Tabla de snowboard con fijaciones y botas incluidas",
-      "categoria_id": 4,
-      "precio": 399.99,
-      "stock": 2
-    },
-    {
-      "id": 25,
-      "nombre": "Guantes de Esquí",
-      "descripcion": "Guantes de esquí impermeables y transpirables con refuerzo en la palma",
-      "categoria_id": 4,
-      "precio": 39.99,
-      "stock": 0
-    },
-    {
-      "id": 26,
-      "nombre": "Colchoneta Hinchable",
-      "descripcion": "Colchoneta hinchable con aislante térmico y sistema de inflado rápido",
-      "categoria_id": 5,
-      "precio": 69.99,
-      "stock": 1
-    },
-    {
-      "id": 27,
-      "nombre": "Cantimplora de Acero",
-      "descripcion": "Cantimplora de acero inoxidable con capacidad de 1 litro",
-      "categoria_id": 5,
-      "precio": 19.99,
-      "stock": 0
-    },
-    {
-      "id": 28,
-      "nombre": "Navaja Multiusos",
-      "descripcion": "Navaja multiusos con 12 funciones y mango ergonómico",
-      "categoria_id": 5,
-      "precio": 29.99,
-      "stock": 2
-    },
-    {
-      "id": 29,
-      "nombre": "Kit de Primeros Auxilios",
-      "descripcion": "Kit de primeros auxilios con materiales esterilizados y guía de uso",
-      "categoria_id": 5,
-      "precio": 19.99,
-      "stock": 0
-    },
-    {
-      "id": 30,
-      "nombre": "Silbato de Emergencia",
-      "descripcion": "Silbato de emergencia con sonido potente y correa de seguridad",
-      "categoria_id": 5,
-      "precio": 4.99,
-      "stock": 2
-    }
-  ]
-}
+    "carrito": [],
+    "compras": [],
+    "deportes": [
+      {
+        "id": 1,
+        "nombre": "Escalada",
+        "descripcion": "Equipamiento y accesorios para la práctica de la escalada en roca, hielo o en rocódromos"
+      },
+      {
+        "id": 2,
+        "nombre": "Senderismo",
+        "descripcion": "Equipamiento y accesorios para la práctica del senderismo y el excursionismo en montaña"
+      },
+      {
+        "id": 3,
+        "nombre": "Deportes Acuáticos",
+        "descripcion": "Equipamiento y accesorios para la práctica de deportes acuáticos como el kayak, el rafting o el paddle surf"
+      },
+      {
+        "id": 4,
+        "nombre": "Esquí y Snowboard",
+        "descripcion": "Equipamiento y accesorios para la práctica del esquí y el snowboard en pistas o fuera de pistas"
+      },
+      {
+        "id": 5,
+        "nombre": "Camping y Supervivencia",
+        "descripcion": "Equipamiento y accesorios para acampar y sobrevivir en la naturaleza"
+      }
+    ],
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Arnes de Escalada",
+        "descripcion": "Arnes de escalada con certificación UIAA, cómodo y resistente",
+        "categoria_id": 1,
+        "precio": 59.99,
+        "stock": 5
+      },
+      {
+        "id": 2,
+        "nombre": "Cuerda Dinámica",
+        "descripcion": "Cuerda dinámica de 70 metros y 10.2 mm de diámetro para escalada",
+        "categoria_id": 1,
+        "precio": 129.99,
+        "stock": 0
+      },
+      {
+        "id": 3,
+        "nombre": "Mosquetones de Seguridad",
+        "descripcion": "Pack de 6 mosquetones de seguridad con certificación UIAA",
+        "categoria_id": 1,
+        "precio": 39.99,
+        "stock": 2
+      },
+      {
+        "id": 4,
+        "nombre": "Botas de Senderismo",
+        "descripcion": "Botas de senderismo impermeables y transpirables para terrenos difíciles",
+        "categoria_id": 2,
+        "precio": 139.99,
+        "stock": 2
+      },
+      {
+        "id": 5,
+        "nombre": "Mochila de Senderismo",
+        "descripcion": "Mochila de senderismo de 40 litros con sistema de ventilación y ajuste",
+        "categoria_id": 2,
+        "precio": 89.99,
+        "stock": 8
+      },
+      {
+        "id": 6,
+        "nombre": "Bastones de Trekking",
+        "descripcion": "Bastones de trekking ajustables en altura y con sistema antishock",
+        "categoria_id": 2,
+        "precio": 49.99,
+        "stock": 1
+      },
+      {
+        "id": 7,
+        "nombre": "Kayak Hinchable",
+        "descripcion": "Kayak hinchable de 2 plazas con remos y bomba de aire",
+        "categoria_id": 3,
+        "precio": 299.99,
+        "stock": 5
+      },
+      {
+        "id": 8,
+        "nombre": "Chaleco Salvavidas",
+        "descripcion": "Chaleco salvavidas con certificación ISO 12402-5 para deportes acuáticos",
+        "categoria_id": 3,
+        "precio": 59.99,
+        "stock": 0
+      },
+      {
+        "id": 9,
+        "nombre": "Tabla de Paddle Surf",
+        "descripcion": "Tabla de paddle surf hinchable con remo ajustable y mochila de transporte",
+        "categoria_id": 3,
+        "precio": 399.99,
+        "stock": 3
+      },
+      {
+        "id": 10,
+        "nombre": "Esquís de Montaña",
+        "descripcion": "Esquís de montaña con fijaciones y pieles de foca para ascensos",
+        "categoria_id": 4,
+        "precio": 599.99,
+        "stock": 4
+      },
+      {
+        "id": 11,
+        "nombre": "Casco de Esquí",
+        "descripcion": "Casco de esquí con certificación EN 1077 y sistema de ventilación",
+        "categoria_id": 4,
+        "precio": 79.99,
+        "stock": 1
+      },
+      {
+        "id": 12,
+        "nombre": "Gafas de Sol",
+        "descripcion": "Gafas de sol con lentes intercambiables y protección UV 400",
+        "categoria_id": 4,
+        "precio": 49.99,
+        "stock": 2
+      },
+      {
+        "id": 13,
+        "nombre": "Tienda de Campaña",
+        "descripcion": "Tienda de campaña de 2 plazas con sistema de ventilación y impermeabilidad",
+        "categoria_id": 5,
+        "precio": 149.99,
+        "stock": 6
+      },
+      {
+        "id": 14,
+        "nombre": "Saco de Dormir",
+        "descripcion": "Saco de dormir con relleno sintético y temperatura de confort de 0ºC",
+        "categoria_id": 5,
+        "precio": 99.99,
+        "stock": 1
+      },
+      {
+        "id": 15,
+        "nombre": "Hornillo de Gas",
+        "descripcion": "Hornillo de gas con encendido piezoeléctrico y regulador de llama",
+        "categoria_id": 5,
+        "precio": 29.99,
+        "stock": 2
+      },
+      {
+        "id": 16,
+        "nombre": "Crampones para Hielo",
+        "descripcion": "Crampones para hielo con certificación UIAA y ajuste universal",
+        "categoria_id": 1,
+        "precio": 119.99,
+        "stock": 0
+      },
+      {
+        "id": 17,
+        "nombre": "Piolet de Alpinismo",
+        "descripcion": "Piolet de alpinismo con certificación UIAA y mango ergonómico",
+        "categoria_id": 1,
+        "precio": 79.99,
+        "stock": 2
+      },
+      {
+        "id": 18,
+        "nombre": "GPS de Mano",
+        "descripcion": "GPS de mano con pantalla táctil y mapas topográficos precargados",
+        "categoria_id": 2,
+        "precio": 249.99,
+        "stock": 1
+      },
+      {
+        "id": 19,
+        "nombre": "Linterna Frontal",
+        "descripcion": "Linterna frontal con luz LED y batería recargable",
+        "categoria_id": 2,
+        "precio": 29.99,
+        "stock": 0
+      },
+      {
+        "id": 20,
+        "nombre": "Chaqueta Impermeable",
+        "descripcion": "Chaqueta impermeable y transpirable con capucha ajustable",
+        "categoria_id": 2,
+        "precio": 99.99,
+        "stock": 3
+      },
+      {
+        "id": 21,
+        "nombre": "Traje de Neopreno",
+        "descripcion": "Traje de neopreno de 5 mm de grosor para deportes acuáticos",
+        "categoria_id": 3,
+        "precio": 199.99,
+        "stock": 2
+      },
+      {
+        "id": 22,
+        "nombre": "Remo para Kayak",
+        "descripcion": "Remo para kayak de fibra de vidrio y hoja asimétrica",
+        "categoria_id": 3,
+        "precio": 69.99,
+        "stock": 0
+      },
+      {
+        "id": 23,
+        "nombre": "Casco de Kayak",
+        "descripcion": "Casco de kayak con certificación EN 1385 y sistema de ventilación",
+        "categoria_id": 3,
+        "precio": 49.99,
+        "stock": 1
+      },
+      {
+        "id": 24,
+        "nombre": "Tabla de Snowboard",
+        "descripcion": "Tabla de snowboard con fijaciones y botas incluidas",
+        "categoria_id": 4,
+        "precio": 399.99,
+        "stock": 2
+      },
+      {
+        "id": 25,
+        "nombre": "Guantes de Esquí",
+        "descripcion": "Guantes de esquí impermeables y transpirables con refuerzo en la palma",
+        "categoria_id": 4,
+        "precio": 39.99,
+        "stock": 0
+      },
+      {
+        "id": 26,
+        "nombre": "Colchoneta Hinchable",
+        "descripcion": "Colchoneta hinchable con aislante térmico y sistema de inflado rápido",
+        "categoria_id": 5,
+        "precio": 69.99,
+        "stock": 1
+      },
+      {
+        "id": 27,
+        "nombre": "Cantimplora de Acero",
+        "descripcion": "Cantimplora de acero inoxidable con capacidad de 1 litro",
+        "categoria_id": 5,
+        "precio": 19.99,
+        "stock": 0
+      },
+      {
+        "id": 28,
+        "nombre": "Navaja Multiusos",
+        "descripcion": "Navaja multiusos con 12 funciones y mango ergonómico",
+        "categoria_id": 5,
+        "precio": 29.99,
+        "stock": 2
+      },
+      {
+        "id": 29,
+        "nombre": "Kit de Primeros Auxilios",
+        "descripcion": "Kit de primeros auxilios con materiales esterilizados y guía de uso",
+        "categoria_id": 5,
+        "precio": 19.99,
+        "stock": 0
+      },
+      {
+        "id": 30,
+        "nombre": "Silbato de Emergencia",
+        "descripcion": "Silbato de emergencia con sonido potente y correa de seguridad",
+        "categoria_id": 5,
+        "precio": 4.99,
+        "stock": 2
+      }
+    ]
+  }

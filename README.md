@@ -1,4 +1,26 @@
-# SportsSale
+# Sports Sale
+##### by Gabriel Laurito
+### Ejercicio práctico de desarrollo con Angular Moderno Versión 17 o superior.
+
+Comandos para ejecutar proyecto.
+
+- Instalar paquetes
+```bash
+npm install
+```
+
+- Lanzar servidor Front
+```bash
+npm run start
+```
+
+- Lanzar servidor API
+```bash
+npm run api:seed
+```
+---
+###
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
