@@ -1,0 +1,8 @@
+<nav class="navbar navbar-expand justify-content-between navbar-dark bg-primary">
+    <a [routerLink]="[]" (click)="toggle()" id="menu-toggle" class="navbar-brand">
+        <span class="navbar-toggler-icon"></span>
+    </a>
+    <a [routerLink]="['summary']" id="menu-toggle" class="navbar-brand">
+        <i class="bi bi-cart h3"></i><span class="badge badge-pill badge-light">{{ cartCount() }}</span>
+    </a>
+</nav>

@@ -1205,6 +1205,7 @@ dl.row > dd + dt {
 
 body {
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #wrapper {
@@ -1239,9 +1240,13 @@ body {
 }
 
 #page-content-wrapper {
-  width: 100%;
-  position: absolute;
-  padding: 15px;
+    overflow: scroll;
+    height: 100%;
+    max-width: -webkit-fill-available;
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    padding-bottom: 150px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -1280,6 +1285,8 @@ body {
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
   text-decoration: none;
+  background-color: #004a98;
+  color: #fff;
 }
 
 .sidebar-nav>.sidebar-brand {
@@ -1312,11 +1319,13 @@ body {
     width: 250px;
   }
   #page-content-wrapper {
-    padding: 20px;
-    position: relative;
+    /* padding: 20px;
+    position: relative; */
+    max-width: -webkit-fill-available;
+    width: 100%;
   }
-  #wrapper.toggled #page-content-wrapper {
+  /* #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
-  }
+  } */
 }

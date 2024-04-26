@@ -1,0 +1,27 @@
+<div id="page-content-wrapper">
+    <div class="container-fluid">
+        <h1>Productos de {{sport().nombre}}</h1>
+
+        @for (product of products(); track product.id) {
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">{{product.nombre}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{sport().nombre}}</h6>
+                    <p class="card-text">{{product.descripcion}}</p>
+                    @if (product.stock > 1) {
+                        <p><small>Stock {{product.stock}}</small></p>
+                    } @else if (product.stock == 1) {
+                        <div class="alert alert-warning" role="alert">
+                            Última unidad
+                        </div>
+                    }@else {
+                        <div class="alert alert-danger" role="alert">
+                            Agotado
+                          </div>
+                    }
+                    <button [disabled]="product.stock < 1" (click)="addToCart(product)" class="btn btn-primary" href="#">Comprar</button><span> ${{product.precio}}</span>
+                </div>
+            </div>
+        }
+    </div>
+</div>
